@@ -3,7 +3,7 @@ import { Star } from '../styled';
 import { Headline, MainDataWrapper, TagList } from './ShowMainData.styled';
 
 const ShowMainData = ({ name, rating, summary, tags, image }) => {
-  console.log(summary);
+  
   return (
     <MainDataWrapper>
       <img src={image ? image.original : IMG_PLACEHOLDER} alt="show-cover" />

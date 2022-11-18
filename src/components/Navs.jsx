@@ -7,8 +7,7 @@ const LINKS = [
 ];
 
 const Navs = () => {
-  const location = useLocation();
-  console.log('location', location);
+  const location = useLocation();  
 
   return (
     <div>
