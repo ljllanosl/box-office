@@ -1,4 +1,4 @@
-import { DetailsWrapper } from "./Details.styled";
+import { DetailsWrapper } from './Details.styled';
 
 const Details = ({ status, premiered, network }) => {
   return (
