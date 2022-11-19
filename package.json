@@ -10,7 +10,8 @@
     "lint": "eslint --fix . --ext .js,.jsx",
     "format": "prettier --write .",
     "format:lint": "npm run format && npm run lint",
-    "clear": "rimraf dist"
+    "clear": "rimraf dist",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
